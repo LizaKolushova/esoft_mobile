@@ -4,7 +4,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test": "jest"
   },
   "dependencies": {
     "expo": "~51.0.14",
@@ -28,5 +29,14 @@
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
+  "jest": {
+  "preset": "react-native",
+  "setupFilesAfterEnv": [
+    "@testing-library/jest-native/extend-expect"
+  ],
+  "transformIgnorePatterns": [
+    "node_modules/(?!@react-native|react-native)"
+  ]
+},
   "private": true
 }
