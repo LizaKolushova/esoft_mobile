@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent, waitFor } from '@testing-library/react-native';
-import App from '../App'; // путь к вашему App.js
+import App from '../../App'; 
 
 describe('Functionality Test: Deleting a task', () => {
   it('deletes a task from the task list', async () => {

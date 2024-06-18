@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent, waitFor } from '@testing-library/react-native';
-import App from '../App'; // путь к вашему App.js
+import App from '../../App'; 
 
 describe('Functionality Test: Adding a new task', () => {
   it('adds a new task and displays it in the task list', async () => {

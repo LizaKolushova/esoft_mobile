@@ -1,7 +1,6 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react-native';
-import { TaskContext } from '../App';
-import AddTaskScreen from '../AddTaskScreen';
+import { TaskContext, AddTaskScreen } from '../../App';
 
 describe('AddTaskScreen', () => {
   const contextValue = {

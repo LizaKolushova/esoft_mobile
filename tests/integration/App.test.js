@@ -2,9 +2,7 @@ import React from 'react';
 import { render, fireEvent } from '@testing-library/react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { TaskContext } from '../App';
-import TasksScreen from '../TasksScreen';
-import AddTaskScreen from '../AddTaskScreen';
+import { TaskContext, TasksScreen, AddTaskScreen } from '../../App';
 
 const Stack = createStackNavigator();
 
